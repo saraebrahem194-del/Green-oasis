@@ -584,7 +584,6 @@ h2 em {
 }
 
 
-/**/
 .approach-section {
   background: var(--forest);
   color: #eff4e9;
@@ -658,12 +657,11 @@ h2 em {
 }
 
 
-/* للشاشات المتوسطة والتابلت */
 @media (max-width: 1024px) {
     .approach-section {
         grid-template-columns: 1fr;
         gap: 60px;
-        padding: 80px 50px;  /* ← غيرت padding */
+        padding: 80px 50px;  
     }
 
     .approach-copy {
@@ -680,10 +678,9 @@ h2 em {
     }
 }
 
-/* للشاشات الصغيرة (موبايل) */
 @media (max-width: 768px) {
     .approach-section {
-        padding: 60px 30px;  /* ← غيرت padding */
+        padding: 60px 30px;  
         gap: 40px;
     }
 
@@ -696,10 +693,9 @@ h2 em {
     }
 }
 
-/* للشاشات الصغيرة جداً */
 @media (max-width: 480px) {
     .approach-section {
-        padding: 40px 20px;  /* ← غيرت padding */
+        padding: 40px 20px;  
         gap: 30px;
     }
 
@@ -723,7 +719,6 @@ h2 em {
     }
 }
 
-/**/
 .room-section {
   display: grid;
   grid-template-columns: 1.2fr .8fr;
